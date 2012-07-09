@@ -3,7 +3,6 @@
 # @task_type LASTMOD
 file_export_version=3.0
 #Fri Jun 22 15:33:38 EST 2012
-/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unnecessaryElse=warning
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.reportMethodCanBeStatic=ignore
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.finalParameterBound=warning
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unusedLocal=warning
