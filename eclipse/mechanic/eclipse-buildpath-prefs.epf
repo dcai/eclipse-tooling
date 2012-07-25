@@ -1,0 +1,8 @@
+# @title Classes directory
+# @description Classes directory
+# @task_type LASTMOD
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Wed Jul 25 12:19:24 EST 2012
+file_export_version=3.0
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.wizards.srcBinFoldersBinName=classes
