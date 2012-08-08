@@ -1,6 +1,6 @@
 # @title Compiler Error/Warnings
 # @description Set the error/warnings prefs
-# @task_type LASTMOD
+# @task_type RECONCILE
 file_export_version=3.0
 #Fri Jun 22 15:33:38 EST 2012
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.reportMethodCanBeStatic=ignore
