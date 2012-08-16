@@ -6,3 +6,4 @@
 #Thu Aug 16 12:11:45 EST 2012
 file_export_version=3.0
 /instance/org.eclipse.core.runtime/line.separator=\n
+/instance/org.eclipse.core.resources/encoding=UTF-8
