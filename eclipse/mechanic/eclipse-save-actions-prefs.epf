@@ -1,0 +1,11 @@
+# @title Save Actions
+# @description Sets save actions
+# @task_type RECONCILE
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Thu Aug 16 13:19:44 EST 2012
+/instance/org.eclipse.jdt.ui/sp_cleanup.format_source_code=true
+file_export_version=3.0
+/instance/org.eclipse.jdt.ui/editor_save_participant_org.eclipse.jdt.ui.postsavelistener.cleanup=true
+/instance/org.eclipse.jdt.ui/sp_cleanup.organize_imports=true
+/instance/org.eclipse.jdt.ui/sp_cleanup.format_source_code_changes_only=true
