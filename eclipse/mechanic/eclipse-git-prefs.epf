@@ -1,0 +1,8 @@
+# @title GIT Prefs
+# @description EQUELLA Git Preferences
+# @task_type RECONCILE
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Fri Jul 12 11:17:30 EST 2013
+file_export_version=3.0
+/instance/org.eclipse.egit.core/core_autoIgnoreDerivedResources=false
