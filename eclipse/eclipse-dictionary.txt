@@ -47,3 +47,4 @@ virtualisation
 credentials
 optimise
 optimisation
+curator
