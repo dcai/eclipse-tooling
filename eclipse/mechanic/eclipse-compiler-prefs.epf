@@ -78,3 +78,4 @@ file_export_version=3.0
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.localVariableHiding=ignore
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.missingSerialVersion=ignore
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unusedDeclaredThrownException=warning
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unnecessaryElse=warning
