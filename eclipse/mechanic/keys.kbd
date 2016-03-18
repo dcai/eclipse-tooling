@@ -1,0 +1,344 @@
+{
+  "metadata" : {
+    "description" : "Keyboard bindings for dcai"
+  },
+  "changeSets" : [
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.wst.jsdt.ui.javaEditorScope",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⇧⌃F", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.format"},
+      {"keys" : "⌃T", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy"},
+      {"keys" : "⇧⌃|", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.remove.block.comment"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.php.ui.phpEditorScope",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⌃I", "cmd" : "org.eclipse.wst.sse.ui.format.active.elements"},
+      {"keys" : "⌃⌥H", "cmd" : "org.eclipse.php.ui.edit.text.php.open.call.hierarchy"},
+      {"keys" : "⇧⌃F", "cmd" : "org.eclipse.wst.sse.ui.format.document"},
+      {"keys" : "⌃T", "cmd" : "org.eclipse.dltk.ui.edit.text.script.open.hierarchy"},
+      {"keys" : "⇧⌃H", "cmd" : "org.eclipse.php.ui.navigate.open.type.in.hierarchy"},
+      {"keys" : "⌃⌥V", "cmd" : "org.eclipse.php.ui.edit.text.move.element"},
+      {"keys" : "⌃⌥R", "cmd" : "org.eclipse.dltk.ui.edit.text.script.rename.element"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.ui.contexts.dialogAndWindow",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⌘A", "cmd" : "org.eclipse.ui.edit.selectAll"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "scala.tools.eclipse.scalaEditorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⇧⌘O", "cmd" : "org.scalaide.refactoring.OrganizeImports"},
+      {"keys" : "⌥⌘L", "cmd" : "org.scalaide.refactoring.ExtractLocal"},
+      {"keys" : "⌥⌘E", "cmd" : "org.scalaide.refactoring.Extract"},
+      {"keys" : "⌥⌘R", "cmd" : "org.scalaide.refactoring.Rename"},
+      {"keys" : "⌥⌘I", "cmd" : "org.scalaide.refactoring.InlineLocal"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.ant.ui.AntEditorScope",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⇧⌃F", "cmd" : "org.eclipse.jdt.ui.edit.text.java.format"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.dltk.ui.scriptEditorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⌥⌘J", "cmd" : "org.eclipse.dltk.ui.edit.text.script.add.javadoc.comment"},
+      {"keys" : "⌘T", "cmd" : "org.eclipse.dltk.ui.edit.text.script.open.hierarchy"},
+      {"keys" : "⇧⌘F", "cmd" : "org.eclipse.dltk.ui.edit.text.script.format"},
+      {"keys" : "⌥⌘H", "cmd" : "org.eclipse.dltk.ui.edit.text.script.open.call.hierarchy"},
+      {"keys" : "⌥⌘T", "cmd" : "org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.pde.ui.pdeEditorContext",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⇧⌘F", "cmd" : "org.eclipse.pde.ui.edit.text.format"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.scala-ide.play2.routeeditor.editorScope",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⇧⌃F", "cmd" : "org.scala-ide.play2.routeeditor.commands.format"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.ui.textEditorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⌘D", "cmd" : "org.eclipse.ui.edit.text.delete.line"},
+      {"keys" : "⇧⌘↩", "cmd" : "org.eclipse.ui.edit.text.smartEnterInverse"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.jdt.ui.javaEditorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⌃⌘\\", "cmd" : "org.eclipse.jdt.ui.edit.text.java.remove.block.comment"},
+      {"keys" : "⇧⌘F", "cmd" : "org.eclipse.jdt.ui.edit.text.java.format"},
+      {"keys" : "⌘T", "cmd" : "org.eclipse.jdt.ui.edit.text.java.open.hierarchy"},
+      {"keys" : "⌃⌘/", "cmd" : "org.eclipse.jdt.ui.edit.text.java.add.block.comment"},
+      {"keys" : "⇧⌘\\", "cmd" : "org.eclipse.jdt.ui.edit.text.java.remove.block.comment"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.ui.contexts.window",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⌥⌘I", "cmd" : "org.eclipse.jdt.ui.edit.text.java.inline"},
+      {"keys" : "⌘F9", "cmd" : "org.eclipse.mylyn.tasks.ui.command.activateTask"},
+      {"keys" : "⌥⌘V", "cmd" : "org.eclipse.jdt.ui.edit.text.java.move.element"},
+      {"keys" : "⌥⌘R", "cmd" : "org.eclipse.jdt.ui.edit.text.java.rename.element"},
+      {"keys" : "⌥⌘M", "cmd" : "org.eclipse.jdt.ui.edit.text.java.extract.method"},
+      {"keys" : "⌥⌘T", "cmd" : "org.eclipse.search.ui.performTextSearchWorkspace"},
+      {"keys" : "⌥⌘J", "cmd" : "org.eclipse.jdt.ui.edit.text.java.add.javadoc.comment"},
+      {"keys" : "⇧⌘R", "cmd" : "org.eclipse.ui.navigate.openResource"},
+      {"keys" : "⌘F12", "cmd" : "org.eclipse.mylyn.tasks.ui.command.openTask"},
+      {"keys" : "⇧⌘H", "cmd" : "org.eclipse.jdt.ui.navigate.open.type.in.hierarchy"},
+      {"keys" : "⌥⌘L", "cmd" : "org.eclipse.jdt.ui.edit.text.java.extract.local.variable"},
+      {"keys" : "⌥⌘C", "cmd" : "org.eclipse.jdt.ui.edit.text.java.modify.method.parameters"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.scala-ide.play2.routeeditor.editorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⇧⌘F", "cmd" : "org.scala-ide.play2.routeeditor.commands.format"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.jdt.ui.javaEditorScope",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⇧⌃|", "cmd" : "org.eclipse.jdt.ui.edit.text.java.remove.block.comment"},
+      {"keys" : "⇧⌃F", "cmd" : "org.eclipse.jdt.ui.edit.text.java.format"},
+      {"keys" : "⌃T", "cmd" : "org.eclipse.jdt.ui.edit.text.java.open.hierarchy"},
+      {"keys" : "⇧⌃?", "cmd" : "org.eclipse.jdt.ui.edit.text.java.add.block.comment"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.ui.contexts.window",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⌃F12", "cmd" : "org.eclipse.ui.window.activateEditor"},
+      {"keys" : "⌃⌥T", "cmd" : "org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu"},
+      {"keys" : "⌃⌥C", "cmd" : "org.eclipse.jdt.ui.edit.text.java.modify.method.parameters"},
+      {"keys" : "⌃⌥V", "cmd" : "org.eclipse.jdt.ui.edit.text.java.move.element"},
+      {"keys" : "⇧⌃R", "cmd" : "org.eclipse.ui.navigate.openResource"},
+      {"keys" : "⇧⌃H", "cmd" : "org.eclipse.jdt.ui.navigate.open.type.in.hierarchy"},
+      {"keys" : "⌃⌥R", "cmd" : "org.eclipse.jdt.ui.edit.text.java.rename.element"},
+      {"keys" : "⌃⌥J", "cmd" : "org.eclipse.jdt.ui.edit.text.java.add.javadoc.comment"},
+      {"keys" : "⌃⌥I", "cmd" : "org.eclipse.jdt.ui.edit.text.java.inline"},
+      {"keys" : "⌃⌥M", "cmd" : "org.eclipse.jdt.ui.edit.text.java.extract.method"},
+      {"keys" : "⌃F9", "cmd" : "org.eclipse.mylyn.tasks.ui.command.activateTask"},
+      {"keys" : "⌃⌥L", "cmd" : "org.eclipse.jdt.ui.edit.text.java.extract.local.variable"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.ui.contexts.dialogAndWindow",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⌃A", "cmd" : "org.eclipse.ui.edit.selectAll"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.wst.jsdt.ui.javascriptViewScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⌥⌘M", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.extract.method"},
+      {"keys" : "⇧⌘H", "cmd" : "org.eclipse.wst.jsdt.ui.navigate.open.type.in.hierarchy"},
+      {"keys" : "⌥⌘T", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu"},
+      {"keys" : "⌥⌘R", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.rename.element"},
+      {"keys" : "⌥⌘I", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.inline"},
+      {"keys" : "⌥⌘C", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters"},
+      {"keys" : "⌥⌘L", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable"},
+      {"keys" : "⌥⌘J", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.add.javadoc.comment"},
+      {"keys" : "⌥⌘V", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.move.element"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.dltk.ui.scriptEditorScope",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⌃⌥J", "cmd" : "org.eclipse.dltk.ui.edit.text.script.add.javadoc.comment"},
+      {"keys" : "⌃⌥H", "cmd" : "org.eclipse.dltk.ui.edit.text.script.open.call.hierarchy"},
+      {"keys" : "⌃T", "cmd" : "org.eclipse.dltk.ui.edit.text.script.open.hierarchy"},
+      {"keys" : "⇧⌃F", "cmd" : "org.eclipse.dltk.ui.edit.text.script.format"},
+      {"keys" : "⌃⌥T", "cmd" : "org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.scalaide.worksheet.editorScope",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⇧⌃F", "cmd" : "org.scalaide.worksheet.commands.format"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.ant.ui.AntEditorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⇧⌘F", "cmd" : "org.eclipse.jdt.ui.edit.text.java.format"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.php.ui.phpEditorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⌥⌘R", "cmd" : "org.eclipse.dltk.ui.edit.text.script.rename.element"},
+      {"keys" : "⌘I", "cmd" : "org.eclipse.wst.sse.ui.format.active.elements"},
+      {"keys" : "⇧⌘F", "cmd" : "org.eclipse.wst.sse.ui.format.document"},
+      {"keys" : "⇧⌘H", "cmd" : "org.eclipse.php.ui.navigate.open.type.in.hierarchy"},
+      {"keys" : "⌥⌘H", "cmd" : "org.eclipse.php.ui.edit.text.php.open.call.hierarchy"},
+      {"keys" : "⌥⌘V", "cmd" : "org.eclipse.php.ui.edit.text.move.element"},
+      {"keys" : "⌘T", "cmd" : "org.eclipse.dltk.ui.edit.text.script.open.hierarchy"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.pde.ui.pdeEditorContext",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⇧⌃F", "cmd" : "org.eclipse.pde.ui.edit.text.format"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.wst.jsdt.ui.javaEditorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⇧⌘F", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.format"},
+      {"keys" : "⌘T", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy"},
+      {"keys" : "⇧⌘\\", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.remove.block.comment"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.wst.sse.ui.structuredTextEditorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⌘/", "cmd" : "org.eclipse.wst.sse.ui.add.block.comment"},
+      {"keys" : "⌘I", "cmd" : "org.eclipse.wst.sse.ui.format.active.elements"},
+      {"keys" : "⇧⌘F", "cmd" : "org.eclipse.wst.sse.ui.format.document"},
+      {"keys" : "⇧⌘/", "cmd" : "org.eclipse.wst.sse.ui.add.block.comment"},
+      {"keys" : "⌘\\", "cmd" : "org.eclipse.wst.sse.ui.remove.block.comment"},
+      {"keys" : "⇧⌘\\", "cmd" : "org.eclipse.wst.sse.ui.remove.block.comment"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.dltk.ui.context.views",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⇧⌘F", "cmd" : "org.eclipse.wst.sse.ui.format.document"},
+      {"keys" : "⌥⌘V", "cmd" : "org.eclipse.php.ui.edit.text.move.element"},
+      {"keys" : "⌥⌘R", "cmd" : "org.eclipse.dltk.ui.edit.text.script.rename.element"},
+      {"keys" : "⌥⌘H", "cmd" : "org.eclipse.php.ui.edit.text.php.open.call.hierarchy"},
+      {"keys" : "⇧⌘H", "cmd" : "org.eclipse.php.ui.navigate.open.type.in.hierarchy"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.wst.jsdt.ui.javascriptViewScope",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⌃⌥I", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.inline"},
+      {"keys" : "⌃⌥T", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu"},
+      {"keys" : "⌃⌥M", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.extract.method"},
+      {"keys" : "⌃⌥J", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.add.javadoc.comment"},
+      {"keys" : "⌃⌥R", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.rename.element"},
+      {"keys" : "⌃⌥V", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.move.element"},
+      {"keys" : "⌃⌥L", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable"},
+      {"keys" : "⌃⌥C", "cmd" : "org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters"},
+      {"keys" : "⇧⌃H", "cmd" : "org.eclipse.wst.jsdt.ui.navigate.open.type.in.hierarchy"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.scalaide.worksheet.editorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "⇧⌘F", "cmd" : "org.scalaide.worksheet.commands.format"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "scala.tools.eclipse.scalaEditorScope",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⌃⌥L", "cmd" : "org.scalaide.refactoring.ExtractLocal"},
+      {"keys" : "⇧⌃O", "cmd" : "org.scalaide.refactoring.OrganizeImports"},
+      {"keys" : "⌃⌥E", "cmd" : "org.scalaide.refactoring.Extract"},
+      {"keys" : "⌃⌥R Esc Esc", "cmd" : "org.scalaide.refactoring.Rename"},
+      {"keys" : "⌃⌥I", "cmd" : "org.scalaide.refactoring.InlineLocal"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.dltk.ui.context.views",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⌃⌥H", "cmd" : "org.eclipse.php.ui.edit.text.php.open.call.hierarchy"},
+      {"keys" : "⇧⌃H", "cmd" : "org.eclipse.php.ui.navigate.open.type.in.hierarchy"},
+      {"keys" : "⌃⌥R", "cmd" : "org.eclipse.dltk.ui.edit.text.script.rename.element"},
+      {"keys" : "⌃⌥V", "cmd" : "org.eclipse.php.ui.edit.text.move.element"},
+      {"keys" : "⇧⌃F", "cmd" : "org.eclipse.wst.sse.ui.format.document"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.wst.sse.ui.structuredTextEditorScope",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⇧⌃F", "cmd" : "org.eclipse.wst.sse.ui.format.document"},
+      {"keys" : "⌃I", "cmd" : "org.eclipse.wst.sse.ui.format.active.elements"},
+      {"keys" : "⌃/", "cmd" : "org.eclipse.wst.sse.ui.add.block.comment"},
+      {"keys" : "⇧⌃?", "cmd" : "org.eclipse.wst.sse.ui.add.block.comment"},
+      {"keys" : "⇧⌃|", "cmd" : "org.eclipse.wst.sse.ui.remove.block.comment"},
+      {"keys" : "⌃\\", "cmd" : "org.eclipse.wst.sse.ui.remove.block.comment"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.ui.textEditorScope",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "⇧⌃↩", "cmd" : "org.eclipse.ui.edit.text.smartEnterInverse"},
+      {"keys" : "⌃D", "cmd" : "org.eclipse.ui.edit.text.delete.line"},
+      ]
+    },
+  ]
+}
