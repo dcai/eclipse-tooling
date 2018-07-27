@@ -1,0 +1,10 @@
+# @title JSON formatter
+# @description JSON format settings
+# @task_type RECONCILE
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Sat Jul 28 00:53:16 AEST 2018
+file_export_version=3.0
+/instance/org.eclipse.wst.json.core/indentationSize=2
+/instance/org.eclipse.wst.json.core/lineWidth=80
+/instance/org.eclipse.wst.json.core/indentationChar=space
