@@ -1,0 +1,11 @@
+# @title eclipse-html
+# @description html settings
+# @task_type RECONCILE
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Sat Aug 11 21:01:30 AEST 2018
+/instance/org.eclipse.wst.html.core/indentationChar=space
+/instance/org.eclipse.wst.sse.ui/hoverModifiers=combinationHover|true|0;problemHover|false|0;documentationHover|false|0;annotationHover|true|Shift;
+/instance/org.eclipse.wst.html.core/indentationSize=2
+file_export_version=3.0
+/instance/org.eclipse.wst.html.core/inlineElements=small,big,sub,img,strong,select,basefont,title,sup,br,abbr,a,b,acronym,strike,em,i,label,td,input,q,s,th,u,cite,li,font,span
